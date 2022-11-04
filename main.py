@@ -1,7 +1,7 @@
 from dash import Dash, html, dcc, Input, Output
 
 app = Dash(__name__)
-#server = app.server
+
 app.layout = html.Div(children=[dcc.Input(id="in"), html.H1(id="out")])
 
 
